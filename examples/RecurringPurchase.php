@@ -8,7 +8,7 @@ use \SALT\CreditCard;
 use \SALT\Schedule;
 
 // connection parameters to the Salt CC gateway
-$url = 'https://test.salt.com/gateway/creditcard/processor.do';
+$url = 'https://test.saltpayments.com/gateway/creditcard/processor.do';
 //$merchant = new Merchant ('Your Merchant ID', 'Your API Token');
 $merchant = new Merchant ( VALID_MERCHANT_ID, VALID_API_TOKEN );
 $service = new HttpsCreditCardService( $merchant, $url );

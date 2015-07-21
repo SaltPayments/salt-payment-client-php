@@ -9,7 +9,7 @@ use \SALT\VerificationRequest;
 
 
 // connection parameters to the gateway
-$url = 'https://test.salt.com/gateway/creditcard/processor.do';
+$url = 'https://test.saltpayments.com/gateway/creditcard/processor.do';
 //$merchant = new Merchant ('Your Merchant ID', 'Your API Token');
 $merchant = new Merchant ( VALID_MERCHANT_ID, VALID_API_TOKEN );
 $service = new HttpsCreditCardService( $merchant, $url );

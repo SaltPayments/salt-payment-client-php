@@ -44,7 +44,7 @@ const C402_REVIEW_FROM_FRAUD_PROVIDER = "Advanced Fraud Suite only. A review sta
 // Testing Constants
 
 // Connection parameters to the gateway
-const TEST_GATEWAY_URL = 'https://test.salt.com/gateway/creditcard/processor.do';
+const TEST_GATEWAY_URL = 'https://test.saltpayments.com/gateway/creditcard/processor.do';
 const VALID_MERCHANT_ID = '600';
 const VALID_API_TOKEN = 'abc';
 const INVALID_MERCHANT_ID = 'Invalid Merchant ID';

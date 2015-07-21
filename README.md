@@ -1,6 +1,6 @@
-# SALT Technology PHP Client Library
+# SALT Payments PHP Client Library
 
-This library is used to integrate with the SALT Payment Gateway.
+This library is used to integrate with the SALT Payments Gateway.
 
 Code samples are available as part of the package in the `examples/` folder.
 
@@ -35,7 +35,7 @@ use \SALT\HttpsCreditCardService;
 ...
 
 //Initialize the SALT library (HttpsCreditCardService is the key class here)
-$url = 'https://test.salt.com/gateway/creditcard/processor.do';
+$url = 'https://test.saltpayments.com/gateway/creditcard/processor.do';
 $merchant = new Merchant ('Merchant ID', 'API Key');
 $service = new HttpsCreditCardService($merchant, $url);
 ```
